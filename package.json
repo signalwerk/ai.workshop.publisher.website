@@ -5,13 +5,15 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html && cp public/CNAME dist",
-    "md2html": "sh update.sh"
+    "md2html": "sh update.sh",
+    "prettier": "prettier --write 'src/*.{md,html}'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "parcel": "^2.11.0"
+    "parcel": "^2.11.0",
+    "prettier": "^3.1.1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.11.0"

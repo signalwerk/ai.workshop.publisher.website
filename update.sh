@@ -29,4 +29,7 @@ cp "$md_content_file" "$cleaned_md_file"
 sed -i '' -e 's/<[^>]*>//g' "$cleaned_md_file" # Remove HTML tags
 sed -i '' -e '/<!--/,/-->/d' "$cleaned_md_file" # Remove multiline HTML comments
 sed -i '' 's/&nbsp;/ /g' "$cleaned_md_file" # Replace &nbsp; with a space
+sed -i '' 's/WorkshopYou/Workshop/g' "$cleaned_md_file"
+sed -i '' 's/RedaktionAI/Redaktion/g' "$cleaned_md_file"
 
+npm run prettier

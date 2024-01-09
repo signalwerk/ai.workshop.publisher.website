@@ -171,34 +171,20 @@ a {
 // .day {
 //   --day-width: 7rem;
 
-//   .day {
+//   .time {
 //     display: inline-block;
 //     width: var(--day-width);
+//     text-indent: 0;
 //   }
 
 //   ul > li {
 //     margin-left: var(--day-width);
-//     text-indent: calc(0 - var(--day-width));
+//     text-indent: -7rem;
+//     padding-left: 0;
+
+//     &:before {
+//       content: none;
+//       display: none;
+//     }
 //   }
 // }
-
-.day {
-  --day-width: 7rem;
-
-  .time {
-    display: inline-block;
-    width: var(--day-width);
-    text-indent: 0;
-  }
-
-  ul > li {
-    margin-left: var(--day-width);
-    text-indent: -7rem;
-    padding-left: 0;
-
-    &:before {
-      content: none;
-      display: none;
-    }
-  }
-}
