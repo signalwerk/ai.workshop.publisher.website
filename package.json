@@ -1,0 +1,19 @@
+{
+  "name": "ai-for-publishers",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html && cp public/CNAME dist",
+    "md2html": "sh update.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.11.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0"
+  }
+}

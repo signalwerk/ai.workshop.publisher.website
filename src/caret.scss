@@ -1,0 +1,131 @@
+// <span class="caret"><span class="name-tag">Mike</span></span>
+
+.caret {
+  hyphens: none;
+
+  --caret-background-color: var(--color-black);
+  --caret-tag-background-color: var(--color-black);
+  --caret-tag-color: var(--color-white);
+  --caret-width: max(0.1em, 1px);
+  --tag-scaler: 0.3;
+
+  position: relative;
+  display: inline-block;
+  width: 0;
+  height: 1em;
+  line-height: 1;
+
+  font-size: 0.7em;
+
+  &::after {
+    content: "";
+    display: inline-block;
+    width: var(--caret-width);
+    height: 1.2em;
+    background-color: var(--caret-background-color);
+    animation: blink 700ms steps(1) infinite;
+  }
+
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+  transition-delay: 2s;
+}
+
+.typewriter.visible + .caret {
+  opacity: 1;
+  transition-delay: 0s;
+}
+
+@media (min-width: 650px) {
+  .caret {
+    font-size: 0.5em;
+    &::after {
+      height: 2.4em;
+    }
+  }
+}
+
+@media (min-width: 940px) {
+  .caret {
+    font-size: 0.2em;
+    &::after {
+      height: 3.7em;
+    }
+  }
+}
+
+.typewriter.visible + .caret {
+  opacity: 1;
+}
+.name-tag {
+  --name-tag-arrow-size: 0.25em;
+  --name-tag-padding-vertical: 0.15em;
+  --name-tag-padding-horizontal: 0.35em;
+  --name-tag-left-offset-name: 0.75em;
+
+  // not to have a white line between the arrow and the name tag
+  --name-tag-arrow-size-overlap: calc(
+    var(--name-tag-arrow-size) + max(0.1em, 1px)
+  );
+
+  display: block;
+  position: absolute;
+  top: calc(
+    -1em - var(--name-tag-padding-vertical) * 2 - var(--name-tag-arrow-size)
+  );
+  left: calc(0em - var(--name-tag-left-offset-name));
+  background-color: var(--caret-tag-background-color);
+  color: var(--caret-tag-color);
+  padding: var(--name-tag-padding-vertical) var(--name-tag-padding-horizontal);
+  border-radius: 0.2em;
+
+  &::before {
+    position: absolute;
+
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    left: calc(
+      0em - var(--name-tag-arrow-size-overlap) + var(--caret-width) / 2 +
+        var(--name-tag-left-offset-name)
+    );
+    bottom: calc(0em - var(--name-tag-arrow-size));
+    border-left: var(--name-tag-arrow-size-overlap) solid transparent;
+    border-right: var(--name-tag-arrow-size-overlap) solid transparent;
+    border-top: var(--name-tag-arrow-size-overlap) solid
+      var(--caret-tag-background-color);
+  }
+}
+
+@keyframes blink {
+  50% {
+    background-color: transparent;
+  }
+}
+
+// .name-tag {
+//   position: absolute;
+//   top: -20px;
+//   left: 0;
+//   background-color: #e0e0e0;
+//   padding: 2px 6px;
+//   border-radius: 3px;
+//   font-size: 10px;
+// }
+
+// .caret {
+//   display: inline-block;
+//   width: 2px;
+//   height: 1em;
+//   background-color: black;
+//   margin-left: 2px;
+//   animation: blink 1s steps(1) infinite;
+// }
+
+// .input-field {
+//   border: none;
+//   padding: 0;
+//   margin: 0;
+//   font-size: 16px;
+// }
