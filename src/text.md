@@ -17,7 +17,7 @@ In den letzten Monaten hat das Thema Künstliche Intelligenz (KI) erheblich an B
 
 - **Begrüssung**
 - **Input** · Hintergründe KI und Textverarbeitung
-- **Austausch** · Welche Erfahrungen wurden gemacht? Welche Potenziale möchte man erkunden?
+- **Austausch** · Welche Erfahrungen habt ihr gemacht? Wo seht ihr Potentiale??
 - **Praxis** · Fakten zu Texte verarbeiten und Ideenfindung mit KI
 - **Input & Praxis** · Ethische Aspekte – Redaktionelle Guidelines
 - **Übersicht & Austausch** · Beispiele – Integration, Anwendungen und Recherche
@@ -27,7 +27,7 @@ In den letzten Monaten hat das Thema Künstliche Intelligenz (KI) erheblich an B
 
 - **Begrüssung**
 - **Input** · Rechtliche Situation im Umgang mit KI
-- **Austausch** · Eigenstudium und Erkenntnisse
+- **Austausch** · Selbststudium und Erkenntnisse
 - **Praxis** · GPT-Assistenten und Expertensysteme
 - **Input & Praxis** · Übersetzungen, Extraktion und Adaption
 - **Rückblick & Austausch** · Nächste Schritte und gemeinsame Initiativen.
@@ -35,7 +35,7 @@ In den letzten Monaten hat das Thema Künstliche Intelligenz (KI) erheblich an B
 
 ## Eigenstudium und Vorbereitung
 
-Zwischen den zwei Seminaren muss mit etwa zwei Studen eigenstudium bestehend aus Lektüre/Video und kleinen Praxis-Tests gerechnet werden.
+Zwischen den zwei Seminaren muss mit etwa zwei Stunden Selbststudium bestehend aus Lektüre/Video und kleinen Praxis-Tests gerechnet werden.
 
 ## Kursmittel und Format
 
@@ -52,7 +52,7 @@ Zwischen den zwei Seminaren muss mit etwa zwei Studen eigenstudium bestehend aus
 
 ## Zusätzliche Informationen
 
-- **Gruppengrösse** · Die Teilnehmerzahl ist auf 12 Personen beschränkt. Die Anmeldungen für die Kursaufnahme werden in der Reihenfolge des Eingangs berücksichtigt.
+- **Gruppengrösse** · Die Teilnehmerzahl ist auf 12 Personen beschränkt. Die Anmeldungen werden in der Reihenfolge des Eingangs berücksichtigt.
 - **Kosten** · CHF 450.– pro teilnehmender Person
 - **Kursort** · Limmatstrasse 183, 8005 Zürich
 
