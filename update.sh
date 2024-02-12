@@ -5,7 +5,6 @@ input_file="src/index.html"
 md_content_file="src/text.md"
 new_content_file="src/text.html"
 temp_file="temp.html"
-cleaned_md_file="src/text_cleaned.md"
 
 # convert the md to html
 pandoc "$md_content_file" -t html -o "$new_content_file"
@@ -21,15 +20,5 @@ sed -n '/<!-- page content end -->/,$p' "$input_file" >> "$temp_file"
 
 # Replace the original file with the temp file
 mv "$temp_file" "$input_file"
-
-# Make a copy of md_content_file
-cp "$md_content_file" "$cleaned_md_file"
-
-# Remove all HTML tags, multiline HTML comments, and replace &nbsp; with a space
-sed -i '' -e 's/<[^>]*>//g' "$cleaned_md_file" # Remove HTML tags
-sed -i '' -e '/<!--/,/-->/d' "$cleaned_md_file" # Remove multiline HTML comments
-sed -i '' 's/&nbsp;/ /g' "$cleaned_md_file" # Replace &nbsp; with a space
-sed -i '' 's/WorkshopYou/Workshop/g' "$cleaned_md_file"
-sed -i '' 's/RedaktionAI/Redaktion/g' "$cleaned_md_file"
 
 npm run prettier
