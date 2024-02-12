@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html && cp public/CNAME dist",
+    "build": "npm run md2html && parcel build src/index.html && cp public/CNAME dist",
     "md2html": "sh update.sh",
     "prettier": "prettier --write 'src/*.{md,html}'"
   },

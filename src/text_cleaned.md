@@ -9,29 +9,29 @@ In einem gemeinsamen Workshop möchten wir einen Austausch zwischen verschiedene
 
 In den letzten Monaten hat das Thema Künstliche Intelligenz (KI) erheblich an Bedeutung gewonnen. Grosse Verlage haben damit begonnen, Initiativen zu ergreifen und technische Lösungen zu entwickeln, um die menschliche Arbeit zu unterstützen und zu ergänzen. Im Journalismus wurden Erfahrungen mit neuen Technologien gesammelt, die bisher hauptsächlich in der Informatikbranche eingesetzt wurden. Doch stellt sich die Frage, wie unabhängige journalistische Teams, die nicht in grossen Verlagshäusern beheimatet sind, mit dieser Entwicklung umgehen.
 
-## **1. Februar 2024** · 9 – 12:30 Uhr
+## **23. Mai 2024** · 9 – 12:30 Uhr
 
 - **Begrüssung**
-- **Input** · Hintergründe KI und Textverarbeitung
-- **Austausch** · Welche Erfahrungen habt ihr gemacht? Wo seht ihr Potentiale??
+- **Input** · Hintergründe, KI und Textverarbeitung
+- **Austausch** · Welche Erfahrungen habt ihr gemacht? Wo seht ihr Potenziale?
 - **Praxis** · Fakten zu Texte verarbeiten und Ideenfindung mit KI
 - **Input & Praxis** · Ethische Aspekte – Redaktionelle Guidelines
 - **Übersicht & Austausch** · Beispiele – Integration, Anwendungen und Recherche
 - **ab 12:30 Uhr** · anschliessend gemeinsames Mittagessen
 
-## **22. Februar 2024** · 9 – 12:30 Uhr
+## **13. Juni 2024** · 9 – 12:30 Uhr
 
 - **Begrüssung**
 - **Input** · Rechtliche Situation im Umgang mit KI
 - **Austausch** · Selbststudium und Erkenntnisse
 - **Praxis** · GPT-Assistenten und Expertensysteme
-- **Input & Praxis** · Übersetzungen, Extraktion und Adaption
+- **Input & Praxis** · Übersetzungen, Stil und Tonalität anpassen
 - **Rückblick & Austausch** · Nächste Schritte und gemeinsame Initiativen.
 - **ab 12:30 Uhr** · anschliessend gemeinsames Mittagessen
 
 ## Eigenstudium und Vorbereitung
 
-Zwischen den zwei Seminaren muss mit etwa zwei Stunden Selbststudium bestehend aus Lektüre/Video und kleinen Praxis-Tests gerechnet werden.
+Zwischen den zwei Seminaren muss mit etwa zwei Stunden Selbststudium – bestehend aus Lektüre/Video und Anwendungsbeispielen – gerechnet werden.
 
 ## Kursmittel und Format
 
@@ -51,5 +51,6 @@ Zwischen den zwei Seminaren muss mit etwa zwei Stunden Selbststudium bestehend a
 - **Gruppengrösse** · Die Teilnehmerzahl ist auf 12 Personen beschränkt. Die Anmeldungen werden in der Reihenfolge des Eingangs berücksichtigt.
 - **Kosten** · CHF 450.– pro teilnehmender Person
 - **Kursort** · Limmatstrasse 183, 8005 Zürich
+- **Anmeldeschluss** · 14. April 2024
 
-## [Hier anmelden](https://docs.google.com/forms/)
+## [Hier anmelden](https://forms.gle/6tzmsxpeMiuu6QPY6)
